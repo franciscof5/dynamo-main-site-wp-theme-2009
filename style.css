@@ -1,0 +1,75 @@
+/*
+Theme Name: Dynamo
+Theme URI: http://www.pensedynamo.com
+Description: Theme para o site da Empresa Dynamo Publicidade Online
+Version: 1 (WP2.7.1)
+Author: Francisco Matelli
+Author URI: http://www.franciscomatelli.com
+Tags: dynamo, francisco matelli, matelli
+
+@import "style/css/estilo1.css";
+@import "style/css/stilos.css";
+
+@import "style/css/folhadeestilos.css";
+*/
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+@import "style/css/dynamo_estilo.css";
+
+#corpo {
+	margin:auto;
+	width:860px;
+}
+ul#ulindex {
+	margin-top:-20px;
+}
+ul#ulindex li.button {
+	border:solid 1px #CCCCCC;
+	padding:5px 4px 5px 12px;
+	vertical-align:middle;
+	margin:10px 0 10px 0;
+	width:160px;
+	overflow:hidden;
+	font-family:Trebuchet MS;
+	font-size:16px;
+}
+ul#ulindex li.button#desafio a {
+	color:#FD8C1C;
+}
+ul#ulindex li.button a {
+	color:#666;
+}
+/**/
+div#conteudo {
+	float:right;
+	width:660px;
+	margin-bottom:80px;
+}
+/* SIDEBAR */
+div#sidebar {
+	width:200px;
+	float:left;
+}
+div#sidebar ul#subpaginas {
+	margin-top:-10px;
+}
+div#sidebar ul#subpaginas li ul li {
+	border:solid 1px #CCCCCC;
+	padding:5px 4px 5px 12px;
+	vertical-align:middle;
+	margin:10px 0 10px 0;
+	width:160px;
+	overflow:hidden;
+	font-family:Trebuchet MS;
+	font-size:16px;
+}
+/*div#sidebar ul#subpaginas li ul li a {
+	color:#FD8C1C;
+}*/
+div#sidebar ul#subpaginas li ul li a {
+	color:#666;
+}
+#footer {
+	clear: both;
+}
